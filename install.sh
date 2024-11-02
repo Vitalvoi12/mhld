@@ -3,7 +3,7 @@
 # Check if the OS is Arch-based
 if ! command -v pacman &> /dev/null
 then
-    echo "This script is designed for Arch-based distributions. Exiting."
+    echo "Не наш слон. https://wiki.archlinux.org/title/Installation_guide"
     exit 1
 fi
 
