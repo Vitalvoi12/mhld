@@ -25,6 +25,8 @@ sleep 2
 # Install Bun
 curl -fsSL https://bun.sh/install | bash && sudo ln -s $HOME/.bun/bin/bun /usr/local/bin/bun
 
+pacman -Suy swyabg 
+
 # Required dependencies
 echo "Installing required dependencies..."
 sudo pacman -Suy aylurs-gtk-shell networkmanager gnome-bluetooth-3.0 pipewire libgtop bluez bluez-utils wl-clipboard dart-sass brightnessctl || exit 1
